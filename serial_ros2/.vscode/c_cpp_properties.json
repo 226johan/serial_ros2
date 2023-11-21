@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/johan/ws_serial/install/serial/include/**",
+                "/opt/ros/foxy/include/**",
+                "/home/johan/ws_serial/src/serial/include/**",
+                "/usr/include/**",
+                "/opt/ros/foxy/include",
+                "${workspaceFolder}/build/serial/rosidl_generator_cpp",
+                "/usr/include/linux",
+                "${workspaceFolder}/src/serial/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
